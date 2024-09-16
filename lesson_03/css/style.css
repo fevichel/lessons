@@ -1,0 +1,40 @@
+
+@import url("reset.css");
+
+
+h2 {
+    color: red;
+}
+
+.title {
+color: blue;
+}
+
+#culture-of-Lviv {
+    color: purple;
+}
+
+[class*="e-3"] {
+    color: green;
+}
+
+div.text {
+    color: orange;
+}
+
+.list,
+.text-2 {
+    color: gray;
+}
+
+.text {
+    color: blue;
+}
+
+p.text-3 {
+    color: brown;
+}
+
+.text-3 {
+    color: darkgoldenrod;
+}
