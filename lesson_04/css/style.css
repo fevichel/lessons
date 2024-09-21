@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:italic,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular&display=swap");
+@import url("reset.css");
+@import url("fonts.css");
+
+
+
+.title {
+    font-family: "Fira Sans Condensed",sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 34px;
+    color: gray;
+    text-transform: uppercase;
+    word-spacing: 1px;
+}
+
+.sub-title {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    word-spacing: 1px;
+}
+
+.text-1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    font-style: oblique;
+    text-transform: lowercase;
+}
+
+.text-2 {
+    font-family: "Open Sans",sans-serif;
+    text-align: left;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 22px;
+    color: lightslategray;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.text-3 {
+    font-family: "Merriweather",serif;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+.text-4 {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    text-align: right;
+    font-size: 18px;
+    color: rgb(255, 165, 0);
+    text-shadow: 1px 1px 1px #000, 2px -2px 5px red;
+}
+
+.text-5 {
+    font-family: "Gilroy", sans-serif;
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #778899;
+    text-transform: none;
+    letter-spacing: 0.5px;
+}
+
+.word {
+    text-decoration: line-through;
+    text-decoration-color:red ;
+}
+
+.word-2 {
+    text-decoration: underline;
+    text-decoration-color:red ;
+    text-transform: none;
+}
+
+.word-3 {
+    white-space: nowrap;
+}
+.title-3 {
+    color: #132238;
+    font-family: "Work Sans";
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.31;
+    text-align: center;
+}
+
+.text-6 {
+    color: #556070;
+    font-family: "Work Sans";
+    font-size: 18px;
+    line-height: 1.31;
+    text-align: center;
+}
+
+.title-4 {
+    color:  #132238;
+    font-family: "Work Sans";
+    font-size: 78px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.text-7 {
+    color: #615E83;
+    font-family: "DM Sans";
+    font-size: 24px;
+    line-height: 1.58;
+    text-align: center;
+}
+
+.text-8 {
+    color: #505F98;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.66;
+}
+
+.title-5 {
+    font-family: Roboto;
+    color:  #091133;
+    font-size: 50px;
+    line-height: 1.32;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
