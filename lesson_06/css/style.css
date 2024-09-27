@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Amita:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+@import url("reset.css");
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+header {
+    margin-bottom: 150px;
+}
+
+.main-title {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.page-1 {
+    background-color: #FDF0E9;
+    padding-top: 100px;
+    padding-left: 100px;
+    margin-bottom: 150px;
+}
+
+.page-1__container {
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 140px;
+}
+
+.sub-title {
+    color: #EF6D58;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.page-1 h2 {
+    color: #391400;
+    font-family: Epilogue;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1px;
+    width: 397px;
+    margin-bottom: 26px;
+}
+
+.page-1 p {
+    color: #391400;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 470px;
+    margin-bottom: 26px;
+}
+
+.page-1 li {
+    color: rgba(57, 20, 0, 0.64);
+    font-weight: 400;
+    line-height: 2;
+    background-image: url("../img/check.png");
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    margin-bottom: 16px;
+}
+
+.page-1 img {
+    padding-right: 100px;
+}
+
+.darktheme-page {
+    font-family: "Manrope", sans-serif;
+    margin-bottom: 150px;
+}
+
+.darktheme-backgrounds {
+    min-height: 850px;
+    background: url(../img/Abstract\ Design.png) center / 330px no-repeat,
+    linear-gradient(to bottom, rgba(20, 20, 20, 0) 20%, #141414 100%) center / cover no-repeat,
+    linear-gradient(to top, rgba(20, 20, 20, 0) 20%, #141414 100%) center / cover no-repeat,
+    url(../img/Sub\ Contain.png);
+    padding-bottom: 20px;
+}
+
+.darktheme-page__content {
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.darktheme-page__content h3 {
+    color: #FFF;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 14px;
+    padding-top: 676px;
+}
+
+
+.darktheme-page__content p {
+    color: #999;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 150px;
+    margin-bottom: 45px;
+}
+
+.button {
+    color: #fff;
+    font-size: 14px;
+    min-width: 251px;
+    background: #E50000;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.button span {
+    background: url('../img/Icon-play.png') left /28px no-repeat;
+    padding-left: 32px;
+}
+
+
+.winter {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
