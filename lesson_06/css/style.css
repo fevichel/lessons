@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Amita:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+@import url("reset.css");
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+header {
+    margin-bottom: 150px;
+}
+
+.main-title {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.page-1 {
+    background-color: #FDF0E9;
+    padding-top: 100px;
+    padding-left: 100px;
+    margin-bottom: 150px;
+}
+
+.page-1__container {
+    font-family: "Epilogue", sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 1200x;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 470px;
+}
+
+.sub-title {
+    color: #EF6D58;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.page-1 h2 {
+    color: #391400;
+    font-family: Epilogue;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1px;
+    width: 397px;
+    margin-bottom: 26px;
+    text-transform: capitalize;
+}
+
+.page-1 p {
+    color: #391400;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 470px;
+    margin-bottom: 26px;
+}
+
+.page-1 li {
+    color: rgba(57, 20, 0, 0.64);
+    font-weight: 400;
+    line-height: 2;
+    background-image: url("../img/check.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 32px;
+    padding-left: 50px;
+    margin-bottom: 16px;
+}
+
+.page-1 img {
+    padding-left: 140px;;
+}
+
+.darktheme-page {
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    color: #999;
+    background-color: #141414;
+}
+ 
+
+.darktheme-image {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 195px 15px;
+    background: linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%) left top / 100% 580px repeat-x,
+    linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%) left bottom / 100% 580px repeat-x,
+    url("../img/sub-contain.png") center top / cover no-repeat;
+}
+
+.darktheme-content {
+    text-align: center;
+    line-height: 1.5;
+    max-width: 1120px;
+    margin: -64px auto 0;
+    padding: 0 15px 60px;
+}
+
+.darktheme-content .description {
+    margin-bottom: 50px;
+}
+
+.darktheme-content h3 {
+    font-size: 58px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 13px;
+}
+
+
+.button {
+    color: #fff;
+    padding: 18px 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 8px;
+    background-color: #e50000;
+}
+
+.button span {
+    display: inline-block;
+    background: url("../img/Icon-play.png") no-repeat;
+    background-size: 24px;
+    padding-left: 32px;
+}
+
+.winter {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
